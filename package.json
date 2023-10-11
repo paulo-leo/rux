@@ -1,0 +1,29 @@
+{
+  "name": "rux",
+  "version": "0.0.1",
+  "description": "Gerenciador de estado JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulo-leo/rux.git"
+  },
+  "keywords": [
+    "flux",
+    "rux",
+    "states",
+    "state",
+    "set",
+    "get",
+    "update",
+    "config"
+  ],
+  "author": "Paulo Leonardo da S. Cassimiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulo-leo/rux/issues"
+  },
+  "homepage": "https://github.com/paulo-leo/rux#readme"
+}
