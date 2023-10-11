@@ -15,4 +15,4 @@ O Rux é uma biblioteca de gerenciamento de estados inspirada no Flux, criada po
 Para começar a usar o Rux, instale-o em seu projeto via npm:
 
 ```bash
-npm install rux
+npm install simple-rux
