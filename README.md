@@ -17,13 +17,6 @@ Este é um código que oferece funcionalidades para criação e manipulação de
 
 ## Funções
 
-### `rux.checkWords(value: string): boolean`
-
-Verifica se o valor fornecido é uma palavra reservada.
-
-- `value`: Valor a ser verificado.
-- **Retorno**: Retorna `true` se o valor estiver presente no array de palavras reservadas (`rux.works`), caso contrário, retorna `false`.
-
 ### `rux.has(key: string): boolean`
 
 Verifica se uma set (conjunto) existe com a chave especificada.
@@ -39,7 +32,19 @@ Cria ou atualiza uma set com a chave e valor fornecidos.
 - `value`: Valor a ser atribuído à set.
 - **Retorno**: Sem retorno explícito (`void`).
 
-### ... (outras funções omitidas por questão de espaço)
+- Para acessar o nome do seu set ou variável de configuração, basta escrever: rux.$nomeDaVariavel ou rux.get('nomeDaVariavel')
+
+
+  ### `rux.action(key: string, value: callback): void`
+
+Cria uma ação para manipular os states. A ação pode ser escrita em função pura.
+
+- `key`: Nome da ação.
+- `value`: conteúdo da função pura.
+
+Sua ação deve retornar algum valor de manipulçaõ. para acessar a sua ação, basta escrever da seguinte forma: rux.nomeDaAction()
+
+
 
 ## Observações
 
