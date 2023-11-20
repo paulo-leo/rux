@@ -10,6 +10,44 @@ O Rux é uma biblioteca de gerenciamento de estados inspirada no Flux, criada po
 - **Actions Poderosas**: Defina ações puras para atualizar estados de forma controlada.
 - **Observadores de Estado**: Mantenha seus componentes atualizados com base em alterações específicas de estado.
 
+
+# Documentação do rux.js
+
+Este é um código que oferece funcionalidades para criação e manipulação de conjuntos de dados (sets) de forma simples.
+
+## Funções
+
+### `rux.checkWords(value: string): boolean`
+
+Verifica se o valor fornecido é uma palavra reservada.
+
+- `value`: Valor a ser verificado.
+- **Retorno**: Retorna `true` se o valor estiver presente no array de palavras reservadas (`rux.works`), caso contrário, retorna `false`.
+
+### `rux.has(key: string): boolean`
+
+Verifica se uma set (conjunto) existe com a chave especificada.
+
+- `key`: Chave a ser verificada.
+- **Retorno**: Retorna `true` se a chave existir no conjunto (`rux.sets`), caso contrário, retorna `false`.
+
+### `rux.set(key: string, value: any): void`
+
+Cria ou atualiza uma set com a chave e valor fornecidos.
+
+- `key`: Chave da set a ser criada ou atualizada.
+- `value`: Valor a ser atribuído à set.
+- **Retorno**: Sem retorno explícito (`void`).
+
+### ... (outras funções omitidas por questão de espaço)
+
+## Observações
+
+Este código fornece funcionalidades básicas para gerenciamento de conjuntos de dados (sets). As funções listadas oferecem formas de criar, verificar, atualizar e deletar sets, além de outras operações. Certifique-se de consultar esta documentação para entender como utilizar cada função de forma adequada em seu projeto.
+
+Por favor, consulte o código-fonte para detalhes adicionais e exemplos de uso.
+
+
 ## Instalação
 
 Para começar a usar o Rux, instale-o em seu projeto via npm:
